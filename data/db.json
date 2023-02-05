@@ -1,0 +1,68 @@
+{
+  "posts": [],
+  "users": [
+    {
+      "email": "akbar@gmail.com",
+      "password": "$2a$10$0JhfiW6gVvxNUa3yDVaXZ.ke6Tn8nhqyHLLs/SkwTFLSyY3etRfJe",
+      "first_name": "akbar",
+      "last_name": "ahmadjonov",
+      "id": 1
+    },
+    {
+      "email": "sda@gmail.com",
+      "password": "$2a$10$bNWWQN8aD0uelC48XIClRumbf6Sbg.PY/nbGNEMgqvyHB4fTUHQsG",
+      "first_name": "akbar",
+      "last_name": "ahmadjnov",
+      "id": 2
+    },
+    {
+      "email": "asd@gmail.com",
+      "password": "$2a$10$BsGDJrtZKJtbvosj1Nc7GOw/60kOXbXv60EpbSVEPHqQvQd.RiUce",
+      "first_name": "doni",
+      "last_name": "bun",
+      "id": 3
+    },
+    {
+      "email": "doni2@gmail.com",
+      "password": "$2a$10$XAR.4N9BpHzJ4Qp1TOCSkutepp186rKjGzZmqE2DitYWbNJs.z6JS",
+      "first_name": "doni",
+      "last_name": "dasd",
+      "id": 4
+    },
+    {
+      "email": "bro@gmail.com",
+      "password": "$2a$10$B3FzfLpVHykahVlDU4FYJuKo/KRctOoc/KUgOhBkQDfa0GC3pLZTq",
+      "first_name": "ak",
+      "last_name": "ah",
+      "id": 5
+    },
+    {
+      "email": "sad@gmail.com",
+      "password": "$2a$10$n77oCtXxo81RoA6ndi0tNOtaKArVFwLAd7fuZWPi5GneIPpkHGqVy",
+      "first_name": "adlsj",
+      "last_name": "adokp",
+      "id": 6
+    },
+    {
+      "email": "doston@gmail.com",
+      "password": "$2a$10$YwYX008FhlLgXC9Ad6MNqewpJF/MIesc8MAOCGcq1pDL2vIi5tLYK",
+      "first_name": "doston",
+      "last_name": "ahmadjonov",
+      "id": 7
+    },
+    {
+      "email": "w@gmail.com",
+      "password": "$2a$10$NkQeFnPfRpc1NDW40EDSCeAK2/DyQrsGJ/sNLysPnuHCykiqMQ8QK",
+      "first_name": "daad",
+      "last_name": "94d8aw",
+      "id": 8
+    },
+    {
+      "email": "wd@gmail.com",
+      "password": "$2a$10$3jY4J4Vp2ZZXEiNscuwaAuGPNeOpPqfbwb4C6DGkJAqNDVMR6..ty",
+      "first_name": "sdad",
+      "last_name": "dasda",
+      "id": 9
+    }
+  ]
+}
