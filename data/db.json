@@ -1,5 +1,24 @@
 {
-  "posts": [],
+  "posts": [
+    {
+      "title": "ad",
+      "body": "ds",
+      "author": "akbar ahmadjonov",
+      "id": 1
+    },
+    {
+      "title": "uxlash",
+      "body": "dsad",
+      "author": "akbar ahmadjonov",
+      "id": 2
+    },
+    {
+      "title": "dsad",
+      "body": "das",
+      "author": "akbar ahmadjonov",
+      "id": 3
+    }
+  ],
   "users": [
     {
       "email": "akbar@gmail.com",
@@ -63,6 +82,62 @@
       "first_name": "sdad",
       "last_name": "dasda",
       "id": 9
+    },
+    {
+      "email": "shux@gmail.com",
+      "password": "$2a$10$y6MghsHyXqspRn0Yz8JnbevK1YKmOd5DCqtluwKC4WQ1IcEGc0TQW",
+      "first_name": "Shuxrat",
+      "last_name": "Qodirov",
+      "id": 10
+    },
+    {
+      "email": "akbar1@gmail.com",
+      "password": "$2a$10$PE4BeMcdcPfBShU7JleUJu38uAUK3rM.QKKc.IOls9uLPNh2vYkCy",
+      "first_name": "Akbar",
+      "last_name": "Ahmadjonov",
+      "id": 11
+    },
+    {
+      "email": "john@gmail.com",
+      "password": "$2a$10$zX7gNba8dG3W4o.Tq0aS9utyFSFwvpPQn6sAEdOoX0gJKCxN0JsCq",
+      "first_name": "John",
+      "last_name": "Doe",
+      "id": 12
+    },
+    {
+      "email": "ulug@gmail.com",
+      "password": "$2a$10$7oP1kLn/wjvZBYCK3DAZHO1oN8guS68Ln3wJhL1WT/pifA/h7365m",
+      "first_name": "ulug",
+      "last_name": "ahmad",
+      "id": 13
+    },
+    {
+      "email": "jamshid@gmail.com",
+      "password": "$2a$10$4MIpu3uCFyBx2/POW3oiJuJiu04pK1.ZK1q1WNB4TmSqVKctkcmo.",
+      "first_name": "Jamshid",
+      "last_name": "Husanov",
+      "id": 14
+    },
+    {
+      "email": "jamshid1@gmail.com",
+      "password": "$2a$10$1M.MAOadtuWCq0S5i2lgZ.sCN46dxUjlQDwqMOduQr9izF82AeaKe",
+      "first_name": "Jamshid",
+      "last_name": "Husanov",
+      "id": 15
+    },
+    {
+      "email": "jam@gmail.com",
+      "password": "$2a$10$CX.453.POO7lSt/ldSZg2u7jgn/fynMpaf2rDmIi5ceM5jmT9n2i6",
+      "first_name": "jam",
+      "last_name": "hus",
+      "id": 16
+    },
+    {
+      "email": "lorem@gmail.com",
+      "password": "$2a$10$r0aka1Mptp5NHqBayQmwT.pWLcldxeFoRwKNTBuuQt7Y88kS4EJVe",
+      "first_name": "Lorem",
+      "last_name": "Ipsum",
+      "id": 17
     }
   ]
 }

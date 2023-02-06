@@ -467,3 +467,28 @@ a {
   padding: 7px 12px;
   font-size: 30px;
 }
+
+.drop {
+  padding: 20px;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 90px;
+}
+
+.drop li {
+  text-align: left;
+  color: #333;
+}
+
+.pos {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  border: none;
+}
+
+.pos:hover {
+  background-color: #777;
+  color: #fff;
+}

@@ -1,7 +1,13 @@
 import axios from "axios";
 import { useState, useRef } from "react";
+import { useContext } from "react";
+import { AuthContext } from "../../../Context/AuthContext";
+import { UserContext } from "../../../Context/UserContext";
 
 export const Login = () => {
+  const { setToken } = useContext(AuthContext);
+  const { setUser } = useContext(UserContext);
+
   const emailRef = useRef();
   const passwordRef = useRef();
 
@@ -14,8 +20,9 @@ export const Login = () => {
       })
       .then((data) => {
         if (data.status === 200) {
-          localStorage.setItem("token", data.data.accessToken);
-          localStorage.setItem("user", JSON.stringify(data.data.user));
+          setToken(data.data.accessToken);
+          setUser(data.data.user);
+          navigate("/");
         }
       })
       .catch((err) => console.log(err));
@@ -23,44 +30,44 @@ export const Login = () => {
 
   return (
     <>
-      <main class="app__content my-3">
-        <div class="header__content">
-          <h1 class="header__content__heading">Welcome Back</h1>
-          <p class="header__content__subheading">
+      <main className="app__content my-3">
+        <div className="header__content">
+          <h1 className="header__content__heading">Welcome Back</h1>
+          <p className="header__content__subheading">
             Don't miss your next opportunity. Sign in to stay updated on your
             professional world.
           </p>
         </div>
-        <form onSubmit={handleSubmit} class="login__form">
-          <div class="form__input--floating">
-            <label class="form__label--floating" id="label--email">
+        <form onSubmit={handleSubmit} className="login__form">
+          <div className="form__input--floating">
+            <label className="form__label--floating" id="label--email">
               Email or Phone
             </label>
             <input ref={emailRef} type="email" id="input--email" />
           </div>
-          <div class="form__input--floating">
-            <label class="form__label--floating" id="label--password">
+          <div className="form__input--floating">
+            <label className="form__label--floating" id="label--password">
               Password
             </label>
             <input ref={passwordRef} id="input--password" type="password" />
           </div>
-          <div class="login__form_action_container login__form_action_container--multiple-actions">
+          <div className="login__form_action_container login__form_action_container--multiple-actions">
             <button
-              class="btn__primary--large from__button--floating"
+              className="btn__primary--large from__button--floating"
               type="submit"
               aria-label="Sign in"
             >
               Sign in
             </button>
             <button
-              class="btn__secondary--large from__button--floating"
+              className="btn__secondary--large from__button--floating"
               aria-label="Cancel"
             >
               Cancel
             </button>
           </div>
         </form>
-        <div class="footer-app-content-actions">
+        <div className="footer-app-content-actions">
           <div>
             <a>Forgot password?</a>
           </div>

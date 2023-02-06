@@ -1,7 +1,16 @@
-import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/images/linkedin-logo-png-2051.png";
+import { UserContext } from "../../Context/UserContext";
+import { AuthContext } from "../../Context/AuthContext";
 
 export const PrivateHeader = () => {
+  const { user, setUser } = useContext(UserContext);
+  const { setToken } = useContext(AuthContext);
+  console.log(user);
+
+  const navigate = useNavigate();
+
   return (
     <nav className="navbar navbar-expand-xl navbar-dark bg-dark d-flex align-items-center">
       <Link to="/" className="navbar-brand">
@@ -71,8 +80,27 @@ export const PrivateHeader = () => {
             <span>Notifications</span>
           </a>
           <div class="circle">
-            <p class="circle-inner">AY</p>
+            <p class="circle-inner">
+              {user.first_name.at(0) + user.last_name.at(0)}
+            </p>
           </div>
+          <ul className="drop shadow list-group">
+            <li className="list-group-item">
+              <button
+                className="btn btn-danger"
+                onClick={() => {
+                  setToken("");
+                  setUser("");
+                  navigate();
+                }}
+              >
+                Log out
+              </button>
+            </li>
+            <li className="list-group-item">
+              Full name: {user.first_name + " " + user.last_name}
+            </li>
+          </ul>
           <div className="nav-item dropdown">
             <div className="dropdown-menu">
               <a href="#" className="dropdown-item">
