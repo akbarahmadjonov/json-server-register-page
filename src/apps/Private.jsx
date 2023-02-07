@@ -15,7 +15,7 @@ export const Private = () => {
           <Route path="/users" element={<Users />} />
           <Route
             path="*"
-            element={<h2>The page you are looking for is not found?</h2>}
+            element={<h2>The page you are looking for was not found?</h2>}
           />
         </Routes>
       </div>

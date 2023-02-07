@@ -15,7 +15,7 @@ export const Public = () => {
           <Route path="/register" element={<Register />} />
           <Route
             path="*"
-            element={<h2>The page you are looking is not found?</h2>}
+            element={<h2>The page you are looking for was not found</h2>}
           />
         </Routes>
       </div>
