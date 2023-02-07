@@ -79,8 +79,8 @@ export const PrivateHeader = () => {
             <i className="fa fa-bell"></i>
             <span>Notifications</span>
           </a>
-          <div class="circle">
-            <p class="circle-inner">
+          <div className="circle">
+            <p className="circle-inner">
               {user.first_name.at(0) + user.last_name.at(0)}
             </p>
           </div>

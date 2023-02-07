@@ -491,4 +491,93 @@ a {
 .pos:hover {
   background-color: #777;
   color: #fff;
+  box-shadow: 0 0 10px 0 #c1c1c1, 0 8px 24px -8px #c1c1c1;
+}
+
+.edit {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  background-color: #0388d0;
+}
+
+.delete {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  background-color: #0388d0;
+}
+
+.delete:hover {
+  background-color: #dc3545;
+  box-shadow: 0 0 10px 0 #dc3545, 0 8px 24px -8px #dc3545;
+}
+
+/* Modal */
+.card {
+  border-radius: 0.75rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+.info__padding {
+  padding: 40px 40px 30px 40px;
+}
+h3 {
+  font-size: 19px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+h3,
+p {
+  color: #0b1a28;
+  text-align: center;
+}
+.button__group button {
+  color: #007aff;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-top: 1px solid rgb(220, 224, 226);
+  border-left: 1px solid rgb(220, 224, 226);
+  padding: 18px 10px;
+  cursor: pointer;
+  float: left;
+  width: 50%;
+}
+.button__group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.button__group button:not(:last-child) {
+  border-left: none;
+}
+.button__group button:hover {
+  background-color: rgb(250, 250, 250);
+}
+.button__group button:active {
+  background-color: rgb(245, 245, 245);
+}
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 30px;
+  }
+}
+
+.card {
+  position: fixed;
+  margin-top: -450px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }

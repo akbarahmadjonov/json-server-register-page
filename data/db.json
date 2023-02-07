@@ -1,22 +1,11 @@
 {
   "posts": [
     {
-      "title": "ad",
-      "body": "ds",
+      "title": "wwwwwwwwwwwwwww",
+      "body": "wwwwwwwwwwww",
+      "visibility": "Only my friends",
       "author": "akbar ahmadjonov",
       "id": 1
-    },
-    {
-      "title": "uxlash",
-      "body": "dsad",
-      "author": "akbar ahmadjonov",
-      "id": 2
-    },
-    {
-      "title": "dsad",
-      "body": "das",
-      "author": "akbar ahmadjonov",
-      "id": 3
     }
   ],
   "users": [
@@ -138,6 +127,13 @@
       "first_name": "Lorem",
       "last_name": "Ipsum",
       "id": 17
+    },
+    {
+      "email": "bunyod@gmail.com",
+      "password": "$2a$10$SnLE0SI3mL/ujWkKF9Ow/e1B5T89C5rgapdnSIHnNjcRUPdRP.i5K",
+      "first_name": "Bunyod",
+      "last_name": "Nasriddinov",
+      "id": 18
     }
   ]
 }
