@@ -104,6 +104,7 @@ export const Register = () => {
                 Sign in
               </button>
               <button
+                type="submit"
                 className="btn__secondary--large from__button--floating"
                 aria-label="Cancel"
               >
